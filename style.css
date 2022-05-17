@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: rgb(17, 37, 102);
+  --primary-color: linear-gradient(45deg, black, rgb(17, 37, 102));
   --primary-color-darker: rgb(255, 255, 255);
 }
 
@@ -16,6 +16,7 @@ body {
   font-family: 'Open sans', sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
+  height: 92.5vh;
 }
 
 .container {
